@@ -23,4 +23,17 @@ Image Processing: opencv-python, pillow
 Data Handling: pandas, numpy
 Utilities: pyyaml
 ```
-+
+## Environment Setup
+
+# Create the environment
+conda create -n yolo_image_search_gpu python=3.11 -y
+
+# Activate the environment
+conda activate yolo_image_search_gpu
+
+# Install PyTorch with CUDA support
+conda install pytorch==2.5.1 torchvision==0.20.1 pytorch-cuda=12.4 -c pytorch -c nvidia
+
+# Install remaining dependencies
+pip install -r requirements.txt
+
