@@ -23,7 +23,7 @@ Image Processing: opencv-python, pillow
 Data Handling: pandas, numpy
 Utilities: pyyaml
 ```
-# Environment Setup
+##7 Environment Setup
 
 ### Create the environment
 conda create -n yolo_image_search_gpu python=3.11 -y
